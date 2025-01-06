@@ -5,6 +5,32 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre machine si vous passez pas par docker :
+
+Node.js (v14.20 ou supérieur)
+
+npm (inclus avec Node.js)
+
+Docker
+
+Docker Compose
+
+Installation
+
+1. Cloner le dépôt
+
+git clone git@github.com:Amineharoun3/React_Game_App.git
+
+
+
+2. Construire et lancer les conteneurs Docker
+
+sudo docker-compose up --build
+
+3. L'application React serait disponible sur le port 3000
+
 ## Available Scripts
 
 In the project directory, you can run:
